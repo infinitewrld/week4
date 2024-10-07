@@ -1,0 +1,23 @@
+[
+
+{
+    "fruit": "Seb",
+    "id":0,
+    "size": "baada",
+    "color": "laal"   
+},
+{
+"fruit": "orange",
+"id":1,
+"size": "medium",
+
+"color": "orange"
+},
+
+{
+"fruit": "kela",
+"id":2,
+"size": "bahut baada",
+"color": "peela"
+}
+]
