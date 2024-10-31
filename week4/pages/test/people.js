@@ -32,8 +32,8 @@ export default  function people () {
     <div>
       <ul>
       {
-        peoplelist.map((item) => {
-          return(<li>{item}</li>)
+        peoplelist.map((idx,item) => {
+          return(<li key={idx}>{item}</li>)
         })
 
       }
