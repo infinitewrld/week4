@@ -17,6 +17,7 @@ export default function Home( { allData,fruitdata} ) {
     <Layout home>
       <h1>List of Names</h1>
       <div className="list-group">
+      
         {allData.map( 
             ({id, name}) => (
               <Link key={id} href={`/${id}`} className="list-group-item list-group-item-action">
@@ -26,15 +27,19 @@ export default function Home( { allData,fruitdata} ) {
           )
         }
       </div>
-      <div  className = "list-group">
-      {fruitdata.map( 
-            ({id, fruit}) => (
-              <Link key={id} href={`/${id}`} className="list-group-item list-group-item-action">
-                {fruit}
-              </Link>
-            )
+      <h1>list of fruits</h1>
+      <div className = "list-group">
+      {fruitdata.map(
+        ({id,fruit,size,color}) => {
+          return(
+          <Link key={id} href={`/fruits/${fruit}`}className="list-group-item list-group-item-action">  
+            <h1>{fruit}</h1>
+            <h4>{size}</h4>
+            <h4>{color}</h4>
+          </Link>
           )
         }
+      )}
       </div>
     </Layout>
   );

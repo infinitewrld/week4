@@ -4,20 +4,27 @@
     "fruit": "Seb",
     "id":0,
     "size": "baada",
-    "color": "laal"   
+    "color": "laal",
+    "quantity":"3"
 },
 {
 "fruit": "orange",
 "id":1,
 "size": "medium",
 
-"color": "orange"
+"color": "orange",
+"quantity":"3"
 },
 
 {
 "fruit": "kela",
 "id":2,
 "size": "bahut baada",
-"color": "peela"
+"color": "peela",
+"quantity": "3"
 }
+
+
+
 ]
+
